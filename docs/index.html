@@ -1,1 +1,77 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>项目文档示例</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+    header { margin-bottom: 2em; }
+    h1 { color: #333; }
+    section { background: #fff; padding: 1.5em; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);}
+    code, pre { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    footer { margin-top: 2em; color: #aaa; text-align: center; }
+    nav { margin-bottom: 2em; }
+    nav a { margin-right: 1em; color: #3366cc; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    ul { margin: 0.5em 0 0.5em 2em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>King 项目文档示例</h1>
+    <nav>
+      <a href="#简介">简介</a>
+      <a href="#安装">安装</a>
+      <a href="#使用方法">使用方法</a>
+      <a href="#贡献指南">贡献指南</a>
+    </nav>
+  </header>
+
+  <section id="简介">
+    <h2>简介</h2>
+    <p>本项目 <strong>King</strong> 是一个高性能、易扩展的开源解决方案，适用于多种应用场景。</p>
+    <ul>
+      <li>高性能架构</li>
+      <li>简单易用的接口</li>
+      <li>社区驱动的开发</li>
+    </ul>
+  </section>
+
+  <section id="安装">
+    <h2>安装</h2>
+    <p>你可以通过以下命令快速安装：</p>
+    <pre><code>git clone https://github.com/kinggon11/king.git
+cd king
+npm install
+</code></pre>
+  </section>
+
+  <section id="使用方法">
+    <h2>使用方法</h2>
+    <p>以下是一个简单的使用示例：</p>
+    <pre><code>import { King } from 'king';
+
+const king = new King();
+king.run();
+</code></pre>
+  </section>
+
+  <section id="贡献指南">
+    <h2>贡献指南</h2>
+    <p>欢迎任何形式的贡献！请遵循以下流程：</p>
+    <ol>
+      <li>Fork 本仓库</li>
+      <li>创建新分支 (<code>git checkout -b feature-xxx</code>)</li>
+      <li>提交你的更改 (<code>git commit -am '添加新功能'</code>)</li>
+      <li>推送分支 (<code>git push origin feature-xxx</code>)</li>
+      <li>发起 Pull Request</li>
+    </ol>
+  </section>
+
+  <footer>
+    <p>© 2025 King 项目 | 文档示例页面</p>
+  </footer>
+</body>
+</html>
