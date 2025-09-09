@@ -1,0 +1,1 @@
+import{_ as t,v as a,a3 as s,t as c}from"./CQRoPQid.js";const n={},o={class:"app-container"};function r(e,d){return c(),a("div",o,[s(e.$slots,"default",{},void 0)])}const f=t(n,[["render",r],["__scopeId","data-v-b13d2fc3"]]);export{f as default};
